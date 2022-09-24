@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Consulte um médico sem sair de casa | Livia Saúde</title>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "SoftwareApplication",
+        "url": "https://www.liviasaude.com.br",
+        "logo": "https://storage.googleapis.com/livia-statics/og_image.jpg"
+    }
+    </script>
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+<link rel="apple-touch-startup-image" href="assets/splash/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/iphoneplus_splash.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" >
+<link rel="apple-touch-startup-image" href="assets/splash/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" >
+<link rel="apple-touch-startup-image" href="assets/splash/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" >
+<link rel="apple-touch-startup-image" href="assets/splash/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" >
+<link rel="apple-touch-startup-image" href="assets/splash/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" >
+
+<meta name="theme-color" content="#2291FD">
+<meta name="apple-mobile-web-app-status-bar-style" content="#2291FD">
+<meta name="msapplication-TileColor" content="#2291fd">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
+    
+
+    <!-- Common assets -->
+    <link rel="canonical" href="https://www.liviasaude.com.br">
+<link rel="preload" href="assets/css/style.min.css" as="style">
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="manifest" href="assets/manifest.json">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Livia Saúde">
+<meta itemprop="description" content="Conheça a nossa plataforma gratuita para você realizar as suas consultas médicas por chamada de vídeo.">
+<meta itemprop="image" content="https://storage.googleapis.com/livia-statics/og_image.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+<meta name="twitter:site" content="https://www.liviasaude.com.br">
+<meta name="twitter:title" content="Consulte um médico sem sair de casa | Livia Saúde">
+<meta name="twitter:description" content="Conheça a nossa plataforma gratuita para você realizar as suas consultas médicas por chamada de vídeo.">
+<meta name="twitter:creator" content="Holding Digital">
+<meta name="twitter:image" content="https://storage.googleapis.com/livia-statics/twitter_image.jpg">
+
+    <!-- Open Graph data -->
+    <meta name="title" content="Consulte um médico sem sair de casa | Livia Saúde">
+<meta name="description" content="Conheça a nossa plataforma gratuita para você realizar as suas consultas médicas por chamada de vídeo.">
+<meta property="og:title" content="Consulte um médico sem sair de casa | Livia Saúde">
+<meta property="og:description" content="Conheça a nossa plataforma gratuita para você realizar as suas consultas médicas por chamada de vídeo.">
+<meta property="og:image" content="https://storage.googleapis.com/livia-statics/og_image.jpg">
+<meta property="og:site_name" content="Livia Saúde">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.liviasaude.com.br">
+
+    <!-- GSuite -->
+    <meta name="google-site-verification" content="xGJXpGSKfbLYY7wY-yhciWTAass66SidzUYGQACcJgk" />
+    <!-- Marketing -->
+    <meta name="google-site-verification" content="ok1eyw09k9xZkh7kPcyfwngZKdgSn9HzutW-LEb8GKk" />
+    <!-- Dextra Devs -->
+    <meta name="google-site-verification" content="FzH7-VDLPgFgMLfRxVc2pVAE2hKKVtpu9ASB90-YBaY" />
+
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    Sentry.init({ dsn: 'https://d1d01ebf32ca42839f9f14d3eb1771f0@sentry.io/1418885' });
+</script>
+
+    <!-- Google Tag Manager -->
+    <script type="text/javascript">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-59WB4T2');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script src="assets/js/analytics.js"></script>
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">
+        try{
+            (function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+            0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+            for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+            MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+
+            mixpanel.init("547c431ccbab1ce1a95c6730a6e3cafc", {
+                loaded: function(mixpanel) {
+                    mixpanel.track("Homepage.View")
+                }
+            });
+            mixpanel.get_distinct_id()
+        }
+        catch(err){
+            Sentry.captureException(err);
+        }
+    </script>
+    <!-- end Mixpanel -->
+
+</head>
+<body>
+    <div id="root">
+        <!-- start accessibility navigation -->
+        <nav class="accessibility-hidden" aria-labelledby="menu-acessivel" role="navigation">
+            <h3>Menu acessível Livia Saúde</h3>
+            <ul>
+                <li><a href="#inicio" tabindex="-1">Conteúdo</a></li>
+                <li><a href="#maincta" tabindex="-1">Faça seu cadastro ou login</a></li>
+                <li><a href="#legal" tabindex="-1">Termos de uso, política de privacidade e contato</a></li>
+            </ul>
+        </nav>
+        <!-- end accessibility navigation -->
+
+        <header role="heading">
+            <h2><a onClick="trackEvent(this.id)" id="HeaderLogo" title="logo Livia Saúde" tabindex="0">Livia Saúde</a></h2>
+            <div class="bt-access">
+                <a href="/entrar" onClick="trackEvent(this.id)" id="EnterCallToAction" title="Cadastro ou login">Entrar</a>
+            </div>
+        </header>
+        <section class="content hero" role="main">
+            <a name="inicio"></a>
+            <div class="content-wrapper">
+                <div class="esq">
+                    <h1>Comece a usar a Livia Sa&uacute;de</h1>
+                    <p class="main-text">
+                        Reunimos em uma &uacute;nica plataforma alguns dos servi&ccedil;os de sa&uacute;de que voc&ecirc; mais precisa. A Livia te ajuda a gerenciar e reunir seus resultados de exames e a realizar consultas m&eacute;dicas por chamada de v&iacute;deo.
+                    </p>
+                    <p class="main-text-mobile">
+                        Reunimos em uma &uacute;nica plataforma alguns dos servi&ccedil;os de sa&uacute;de que voc&ecirc; mais precisa.
+                    </p>
+                    <!-- <div class="labs-list-holder">
+                        <ul class="labs-list" aria-label="lista de laboratorios disponíveis">
+                            <li class="accessibility-hidden"><a href="#maincta">pular lista</a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="AltaSPCard" title="Card AltaSP"><span>Alta (SP)</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="DelboniCard" title="Card Delboni"><span>Delboni Auriemo</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="CDBCard" title="Card CDB"><span>CDB</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="LavoisierCard" title="Card Lavoisier"><span>Lavoisier</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="FleuryCard" title="Card Fleury"><span>Fleury</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="ACard+" title="Card A+"><span>A+</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="SabinCard" title="Card Sabin"><span>Sabin</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="HermesPardiniCard" title="Card Hermes Pardini"><span>Hermes Pardini</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="AlbertCard" title="Card Albert"><span>Albert Einstein</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="SirioCard" title="Card Sirio"><span>Sirio-Libanês</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="PrevilabCard" title="Card Previlab"><span>Previlab</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="CytolabCard" title="Card Cytolab"><span>Cytolab</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="IACSCard" title="Card IACS"><span>IACS</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="LabsimCard" title="Card Labsim"><span>Labsim</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="LabsAmaisCard" title="Card Labs A+"><span>Labs A+ (RJ)</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="ClinicaFelippeMattosoCard" title="Card Clinica"><span>Clínica Felippe Mattoso</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="FrischmannAisengartCard" title="Card Frischmann"><span>Frischmann Aisengart</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="WeinmannCard" title="Card Weinmann"><span>Weinmann</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="SerdilCard" title="Card Serdil"><span>Serdil</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="BomPastorCard" title="Card Bom Pastor"><span>Bom Pastor</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="ExameCard" title="Card Exame"><span>Exame (DF)</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="GhanemCard" title="Card Ghanem"><span>Ghanem</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="VicenteLemosCard" title="Card Vicente Lemos"><span>Vicente Lemos</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="PrettiCard" title="Card Pretti"><span>Pretti</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="TommasiCard" title="Card Tommasi"><span>Tommasi</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="CortesVillelaCard" title="Card Côrtes Villela"><span>Côrtes Villela</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="AtalaiaCard" title="Card Atalaia"><span>Atalaia</span></a></li>
+                            <li class="lab-red"><a href="/entrar" onClick="trackEvent(this.id)" id="AlvaroCard" title="Card Alvaro"><span>Alvaro</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="CarlosChagasCard" title="Card CarlosChagas"><span>Carlos Chagas (MT)</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="CedicCedilabCard" title="Card Cedic Cedilab"><span>Cedic Cedilab</span></a></li>
+                            <li class="lab-blue"><a href="/entrar" onClick="trackEvent(this.id)" id="ImageMemorialCard" title="Card Image Memorial"><span>Image Memorial</span></a></li>
+                            <li class="lab-green"><a href="/entrar" onClick="trackEvent(this.id)" id="DiagnosonCard" title="Card Diagnoson"><span>Diagnoson A+</span></a></li>
+
+                            <li class="lab-green soon"><a href="/entrar" onClick="trackEvent(this.id)" id="AltaRJCard" title="Card Alta RJ"><span>Alta (RJ)</span></a></li>
+                            <li class="lab-blue soon"><a href="/entrar" onClick="trackEvent(this.id)" id="BronsteinCard" title="Card Bronstein"><span>Bronstein</span></a></li>
+                            <li class="lab-blue soon"><a href="/entrar" onClick="trackEvent(this.id)" id="CDPICard" title="Card CDPI"><span>CDPI</span></a></li>
+                            <li class="lab-red soon"><a href="/entrar" onClick="trackEvent(this.id)" id="LaminaRJCard" title="Card Lâmina RJ"><span>Lâmina (RJ)</span></a></li>
+                            <li class="lab-red soon"><a href="/entrar" onClick="trackEvent(this.id)" id="MultiImagemCard" title="Card Multi Imagem"><span>Multi-Imagem (RJ)</span></a></li>
+                            <li class="lab-green soon"><a href="/entrar" onClick="trackEvent(this.id)" id="SalomaoZoppiCard" title="Card Salomão"><span>Salomão Zoppi</span></a></li>
+                            <li class="lab-green soon"><a href="/entrar" onClick="trackEvent(this.id)" id="SergioFrancoCard" title="Card Sérgio Franco"><span>Sérgio Franco</span></a></li>
+                        </ul>
+                    </div> -->
+                    <a name="maincta"></a>
+                    <div class="primary-cta">
+                        <a href="/entrar" onClick="trackEvent(this.id)" id="HeroCallToAction" title="Faça seu cadastro ou login">Começar</a>
+                    </div>
+                </div>
+                <div class="dir">
+                    <figure class="phone-mockup">
+                        <img src="assets/css/img/liviasaudeapp.png" srcset="assets/css/img/liviasaudeapp.png 1x, assets/css/img/liviasaudeapp@2x.png 2x" alt="Telefone celular">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-fixed" role="complementary" aria-label="Textos regulatórios">
+            <div class="content-wrapper">
+                <div class="contact">
+                    <div class="row">
+                        <span class="text-bold">Está com alguma dúvida?</span> 
+                        <span>Entre em contato com nosso atendimento.</span>
+                        <ul class="city">
+                            <li>
+                                <span class="text-bold">São Paulo:</span> 
+                                <span class="text-underline">(11) 3298-6114</span>
+                            </li>
+                            <li>
+                                <span class="text-bold">Rio de Janeiro:</span> 
+                                <span class="text-underline">(21) 2672-7146</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="text-light">Horário de atendimento de segunda a sexta das 6h as 19h e sábado das 6h as 15:30h</p>
+                    </div>
+                </div>
+                <div>
+                    <a name="legal"></a>
+                    <ul class="legal">
+                        <li><a href="termos_de_uso.html" onClick="trackEvent(this.id)" id="TermsOfUse">Termos de uso</a></li>
+                        <li><a href="politica_de_privacidade.html" onClick="trackEvent(this.id)" id="PrivacyPolicy">Política de privacidade</a></li>
+                        <li><a href="https://ajuda.liviasaude.com.br" onClick="trackEvent(this.id)" id="HelpCenter" target="_blank">Central de ajuda</a></li>
+                    </ul>
+                    <p class="text-light">
+                        Livia Saúde © 2020. Todos os direitos reservados.
+                    </p>
+                    <a onClick="trackEvent(this.id)" id="FooterLogo" title="logo Livia Saúde" tabindex="0"><img src="assets/css/img/logo.svg" /></a>
+                </div>
+            </div>
+        </footer>
+        <div class="hero-art">
+            <div class="primary-layer">
+                <div id="particles-js"></div>
+            </div>
+            <div class="secondary-layer"></div>
+        </div>
+    </div>
+    <link rel="preload" href="assets/js/particles.js" as="script">
+    <script src="assets/js/particles.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59WB4T2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier",
+    "cypress"
+  ],
+  "rules": {
+    "prettier/prettier": "warn",
+    "cypress/no-assigning-return-values": "warn",
+    "cypress/no-unnecessary-waiting": "warn",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "es6": true,
+    "cypress/globals": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "env": {
+        "baseUrlPetClinic": "http://44.230.130.248/",
+        "allure": "true"
+    }
+}

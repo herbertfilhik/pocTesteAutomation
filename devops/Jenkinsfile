@@ -1,0 +1,82 @@
+def pipelineConfig = [
+    deploy: [
+        develop: [
+            BUILD_TARGET: 'build:dev',
+            STORAGE_ACCOUNT: 'sovosteste',
+        ],        
+        master: [
+            BUILD_TARGET: 'build:hml',
+            STORAGE_ACCOUNT: 'sovosteste'
+        ],
+    ],
+]
+
+def SetPath(nodejsversion) {
+  return sh (script: ". nvmuse " + nodejsversion,returnStdout: true).trim()
+}
+
+pipeline {
+    agent { node { label 'linux && nodejs' }}
+
+    triggers {
+        cron('H */3 * * 1-5')
+    }
+
+    options {
+        timeout(time: 300, unit: 'MINUTES')
+    }
+
+    environment {
+        PROJECT_NAME="petregression"
+        VERSION="1.0.0"        
+
+        NODEJS_VERSION="14.17.0"     
+        PATH = SetPath("${env.NODEJS_VERSION}")
+
+        AZURE_APP_ID = credentials('azureAppId')
+        AZURE_APP_PASS = credentials('azureAppPass')
+
+        SLACK_CHANNEL = "petclinic"
+    }
+
+    parameters{
+        choice(
+            description:'Choice what script go execute',
+            name:'SCRIPT',
+            choices: [
+                'npm run executaTeste',
+            ]
+        )
+    }
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                sh 'rm -rf node_modules; npm install'
+                sh 'sudo apt-get update'
+                sh 'sudo apt-get install -y libgbm-dev'
+            }
+        }
+        stage('Tests') {
+            options {
+                timeout(time: 300, unit: 'MINUTES')
+            }
+            steps {
+                
+                slackSend(color:'#87CEFA', message:"Starting build ${env.BUILD_URL}", channel:"#${env.SLACK_CHANNEL}")
+
+                sh 'cd /home/jenkins/workspace/sovosteste/'
+                sh "${SCRIPT}"
+            }
+
+            post {
+                success {
+                    slackSend(color:'#32CD32', message:"Success in QA test execution  ${env.BUILD_URL}", channel:"#${env.SLACK_CHANNEL}")
+                }
+                failure {
+                    slackSend(color:'#FF0000', message:"Failure in QA test execution  ${env.BUILD_URL}", channel:"#${env.SLACK_CHANNEL}")
+                }
+            }
+        }   
+    }
+}
