@@ -6,7 +6,7 @@ const path = require('path')
 function getConfigurationByFile(file) {
   const pathToConfigFile = path.resolve(
     '..',
-    'sovos/config',
+    'sovosteste/config',
     `${file}.json`
   )
   return fs.readJSON(pathToConfigFile)
