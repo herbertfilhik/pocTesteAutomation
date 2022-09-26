@@ -1,6 +1,7 @@
 {
     "env": {
-        "baseUrlPetClinic": "http://44.230.130.248/",
+        "baseUrlSubmarino": "https://www.submarino.com.br/",
+        "baseUrlMagalu": "https://www.magazineluiza.com.br/",
         "allure": "true"
     }
 }

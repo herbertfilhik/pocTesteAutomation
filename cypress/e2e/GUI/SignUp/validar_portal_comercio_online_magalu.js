@@ -1,12 +1,12 @@
 /// <reference types="Cypress" />
 
 //let baseUrlPetClinic = 'http://44.230.130.248/'
-let baseUrl = Cypress.env('baseUrlSubmarino')
+let baseUrl = Cypress.env('baseUrlMagalu')
 const faker = require('faker-br')
-const { HomePage } = require('../../../support/page_elements/home')
+const { HomePageMagalu } = require('../../../support/page_elements/homeMagalu')
 
-describe('Validar portal de comercio online Submarino', () => {
-    const homePage = new HomePage()
+describe('Validar portal de comercio online Magalu', () => {
+        const homePage = new HomePageMagalu()
 
     before(() => {
         cy.visit(baseUrl, {
@@ -21,11 +21,11 @@ describe('Validar portal de comercio online Submarino', () => {
         cy.screenshot()
     })
 
-    context('Cenario: Validar portal de comercio online Submarino', () => {
+    context('Cenario: Validar portal de comercio online Magalu', () => {
 
-        let buscaItem = 'Smart TV LG OLED 65" 4K OLED65C1 120hz G-Sync Freesync 4x HDMI 2.1 Inteligência Artificial Thinq Google Alexa'
+        let buscaItem = 'Iphone'
 
-        it(`Dado que esteja no site da Submarino e acesse a busca
+        it(`Dado que esteja no site da Magalu e acesse a busca
             E valide o retorno da busca
             E escolha um produto na lista
             E adicione ao carrinho
