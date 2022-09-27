@@ -22,7 +22,7 @@ describe('Validar portal de comercio online Magalu', () => {
 
     context('Cenario: Validar portal de comercio online Magalu', () => {
 
-        let buscaItem = 'Iphone'
+        let buscaItem = 'iPhone 11 Apple 64GB Branco 6,1” 12MP iOS'
 
         it(`Dado que esteja no site da Magalu e acesse a busca
             E valide o retorno da busca

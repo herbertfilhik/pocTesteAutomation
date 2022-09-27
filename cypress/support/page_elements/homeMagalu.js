@@ -16,7 +16,7 @@ export class HomePageMagalu {
 
         cy.xpath('/html/body/div[1]/div/main/section[4]/div[3]/div/ul/li[1]/a/div[3]/h2')
             .should('be.visible')
-            .should('contain.text', 'iPhone 11 Apple 64GB Preto 6,1” 12MP iOS')
+            .should('contain.text', 'iPhone 11 Apple 64GB Branco 6,1” 12MP iOS')
             .click()
     }
 
@@ -25,9 +25,9 @@ export class HomePageMagalu {
 
         cy.scrollTo('top')
 
-        cy.get('[data-testid="heading-product-title"]')
+        cy.xpath('/html/body/div[1]/div/main/section[2]/div[2]/h1')
             .should('be.visible')
-            .should('contain.text', 'iPhone 11 Apple 64GB Preto 6,1” 12MP iOS')
+            .should('contain.text', 'iPhone 11 Apple 64GB Branco 6,1” 12MP iOS')
 
         cy.get('.koebNd > div > [data-testid="bagButton"] > .sc-ikJyIC')
             .should('be.visible')
