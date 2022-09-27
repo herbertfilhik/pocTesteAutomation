@@ -1,6 +1,7 @@
 {
     "env": {
         "baseUrlSubmarino": "https://www.submarino.com.br/",
+        "baseUrlSubmarinoBFF": "https://catalogo-bff-v2-submarino.b2w.io/",
         "baseUrlMagalu": "https://www.magazineluiza.com.br/",
         "allure": "true"
     }
