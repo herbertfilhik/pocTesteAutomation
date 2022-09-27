@@ -1,6 +1,5 @@
 /// <reference types="Cypress" />
 
-//let baseUrlPetClinic = 'http://44.230.130.248/'
 let baseUrl = Cypress.env('baseUrlSubmarinoBFF')
 const faker = require('faker-br')
 const { HomePage } = require('../../../support/page_elements/home')
